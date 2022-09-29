@@ -88,7 +88,7 @@
       <el-table-column align="center" fixed type="selection" width="55"/>
       <el-table-column v-if="false" align="center" label="主键" prop="id"/>
       <el-table-column align="center" label="应用编码" prop="appId" width="280px"/>
-      <el-table-column align="center" label="模板名称" fixed prop="name"/>
+      <el-table-column align="center" label="模板名称" fixed prop="name" min-width="160px"/>
       <el-table-column align="center" label="类型" prop="type"/>
       <el-table-column align="center" label="模板路径" prop="url">
         <template slot-scope="scope">

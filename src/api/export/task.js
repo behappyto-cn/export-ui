@@ -42,3 +42,12 @@ export function delTask(id) {
     method: 'delete'
   })
 }
+
+// 下载导出任务详细
+export function download(id) {
+  return request({
+    url: '/export/task/download?id=' + id,
+    method: 'post',
+    timeout: -1
+  })
+}
