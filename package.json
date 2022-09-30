@@ -1,8 +1,8 @@
 {
   "name": "heaven-parent",
-  "version": "4.3.0",
+  "version": "1.0.0",
   "description": "导出管理后台",
-  "author": "LionLi",
+  "author": "王明聪",
   "license": "MIT",
   "scripts": {
     "dev": "vue-cli-service serve",
